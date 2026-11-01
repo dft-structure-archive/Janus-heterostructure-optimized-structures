@@ -1,0 +1,43 @@
+PREC = Accurate
+ENCUT = 600
+IBRION = -1
+NSW = 0
+EDIFF = 1E-5
+EDIFFG = -0.01
+NELM = 60
+ISPIN = 1
+ISTART = 1
+ICHARG = 2
+LWAVE = T
+LCHARG = T
+ADDGRID = T
+ISMEAR = 0
+SIGMA = 0.05
+LREAL = F
+IVDW= 12
+
+
+#DOS related values
+EMIN = -10
+EMAX = 5
+NEDOS = 3001
+LORBIT = 11
+
+#HSE related values
+LHFCALC = T
+HFSCREEN = 0.2
+AEXX = 0.25
+ALGO = N
+PRECFOCK = Fast
+
+#Electrostatic Potential
+LVTOT = T
+LVHAR = T
+IDIPOL = 3
+LDIPOL = T
+DIPOL=0.5 0.5 0.5
+
+#Optic related values
+LOPTICS = T
+CSHIFF = 0.1
+NBANDS = 100

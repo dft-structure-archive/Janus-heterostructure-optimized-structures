@@ -1,0 +1,33 @@
+PREC = Accurate
+ENCUT = 600
+IBRION = -1
+NSW = 0
+EDIFF = 1E-6
+EDIFFG = -0.01
+NELM = 60
+ALGO = Normal
+ISPIN = 1
+ISTART = 0
+ICHARG = 2
+LWAVE = T
+LCHARG = T
+ADDGRID = T
+ISMEAR = 0
+SIGMA = 0.05
+LREAL = F
+NCORE = 4
+IVDW= 12
+LAECHG =.TRUE.
+
+#ESP related values
+LVTOT = T
+LVHAR = T
+
+#ELF relate values
+LELF = T
+
+#DOS related values
+EMIN = -10
+EMAX = 5
+NEDOS = 3001
+LORBIT = 11
